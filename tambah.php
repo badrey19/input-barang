@@ -11,7 +11,7 @@ if(isset($_POST["submit"])) {
             )
     ";
     mysqli_query($conn, $query);
-    
+    var_dump(mysqli_affected_rows($conn);
 }
     
     
